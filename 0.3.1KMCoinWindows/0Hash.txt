@@ -1,0 +1,21 @@
+File/Hash
+---------
+All hashes are computed using sha256 encryption.
+Each file endsWith(a) "//" + "64 character hash"
+Remove only the 64 characters and execute in cmd
+    certutil -hashfile <KMCjavaFile>.java SHA256
+The hash should match what you have removed. Yes
+that is a Java joke above. I am glad you noticed
+
+
+zSign
+-----
+All calculated file hashes can be found in zSign
+They are ordered alphanumerically by file name
+The command to hash the file is also present
+
+
+Hash
+----
+//certutil -hashfile 0Hash.txt SHA256
+//7c62e6aa382e7a46e1f2b04a140e06bc2299d603e3886632f3e9acd8b0e0bc70
