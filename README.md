@@ -1,6 +1,8 @@
 Closed the scanner in KMCoin2. Should keep Windows OS focus.
 
-Clears sync files upon login.
+Clears sync files and ledgerformatted upon login.
+
+Removed 'you have hashed # of block(s)' during block update.
 
 Changed sync information to reflect current discord !sync command.
 
